@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body {
+  background: linear-gradient(10deg, #ebeff7, #f3f3f3);
+  display: flex;
+  height: 90%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding: 30px;
+  margin: auto;
+}
+.country {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 400px;
+  height: 100%;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #37474f;
+}
+.country > .country-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.continent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 400px;
+  height: 100%;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #37474f;
+
+
+}
+.continent > .list-countries {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+.continent > .list-countries::-webkit-scrollbar {
+  width: 5px;
+  height: 20px;
+  border-radius: 9em;
+  background-color: #f3f3f3;
+}
+.continent > .list-countries::-webkit-scrollbar-thumb  {
+  background-color: #a0c3f0;
+  border-radius: 9em;
+}
+.card-country {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  min-height: 30px;
+  height: 100%;
+  opacity: .8;
+  font-size: 14px;
+}
+.countinent_card-name{ 
+  padding-left: 20px;
+}
+.card-country:hover {
+  padding: 5px;
+  font-size: 16px;
+  opacity: 1;
+
+}
+.continent > span {
+  padding: 20px;
+   text-align: center;
+}
+html {
+  height: 100%;
+}
+
